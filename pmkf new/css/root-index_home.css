@@ -1,29 +1,53 @@
 
 *{
     box-sizing: border-box;
-    font-size:  16px;
+    font-size:  10px;
+    margin: 0;
 }
+
+
 
 
 .list-container{
-padding-top: 1rem;
-display: flex;
-justify-content: center;
-
-
-
-}
-
-.list-container li{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction:row;
+    border-radius: .5rem;
+    justify-content: center;
+    text-decoration: none;
     background-color: #698269;
-    display: inline;
-    padding: 2rem;
-    list-style-type: none;
-    border-radius: 1rem;
+    
+}
+
+.pmkflogo-head{
+    padding: 1.5rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+}
+
+.val_container{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.val_container a{
+    font-size: .8rem;
+    text-decoration: none;
+    background-color: #AA5656;
+    padding: .4rem;
+    border-radius: 0.4rem;
     
 }
 
 
-@media screen and 360px {
-    
+
+
+
+@media only screen and (min-width: 360px) {
+
 }
