@@ -9,26 +9,41 @@
 
 
 .pmkflogo-head{
-    width: 40%;
-    padding: 1.5rem;
-    border-radius: 1.6rem;
+    width: 30%;
+    padding: 1rem;
 }
 
 .list-container{
     display: flex;
     flex-direction:row;
-    border-radius: .5rem;
-    justify-content: space-around;
+    gap: 1rem;
+    justify-content: center;
     padding: 1rem;
 }
 
 .list-container > a{
-    padding: .5rem;
-    background-color:var(--hue2);
-    border-radius: .5rem;
+    padding: .25rem;
+    border-radius: .2rem;
     color: black;
     text-decoration: none;
+    text-align: center;
+    background-color: var(--hue5);
+    font-size: 1.3rem;
 }
+
+
+
+.grid-conatiner{
+    display: grid;
+    grid-template-columns: repeat(3fr);
+    grid-template-rows: repeat(7fr);
+}
+
+
+.grid-item{
+    background-color: #FF6464;
+}
+
 
 
 .people_block{
@@ -43,7 +58,7 @@
     border-radius: 1rem 1rem 0rem 0rem;
     display: grid;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
     
 }
 
