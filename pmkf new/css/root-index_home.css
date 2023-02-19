@@ -9,15 +9,11 @@
 
 
 .pmkflogo-head{
-    width: 30%;
+    width: 100%;
     padding: 1rem;
 }
 
 .list-container{
-    display: flex;
-    flex-direction:row;
-    gap: 1rem;
-    justify-content: center;
     padding: 1rem;
 }
 
@@ -27,39 +23,43 @@
     color: black;
     text-decoration: none;
     text-align: center;
-    background-color: var(--hue5);
-    font-size: 1.3rem;
+    background-color: var(--hue8);
+    font-size: 1.5rem;
+}
+
+.titel{
+    display: flex;
+    justify-content: center;
+}
+
+.titel > h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: normal;
+    display: block;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+    
 }
 
 
 
-.grid-conatiner{
-    display: grid;
-    grid-template-columns: repeat(3fr);
-    grid-template-rows: repeat(7fr);
+.grid-container{
+    padding: 1rem;
+} 
+
+.grid-container > p{
+    background-color: var(--hue6);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 4rem;
 }
-
-
-.grid-item{
-    background-color: #FF6464;
-}
-
 
 
 .people_block{
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
- 
-}
-
-
-.people_block > h2{
-    padding-top: 1rem;
-    border-radius: 1rem 1rem 0rem 0rem;
-    display: grid;
-    text-align: center;
-    font-size: 1.2rem;
-    
 }
 
 .people_img{
@@ -69,13 +69,11 @@
 /* licensing link */
 .people_block > a{
     display: flex;
-    padding: 0rem;
     font-size: .5rem;
     justify-content: end;
     text-decoration: none;
     color: #000;
 }
-
 
 .experince{
     display: grid;
@@ -91,6 +89,7 @@
     display: grid;
     text-align: center;
     font-size: 1.5rem;
+    background-color: rgba(255,255,255, .9);
 }
 
 
@@ -103,31 +102,15 @@
 
 }
 
-
-.description{
-    display: grid;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.description > h2{
-    background: var(--hue3);
-    font-size: 2rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1.5rem;
-}
-
 .val_container{
     display: grid;
-    grid-row:column;
     gap: 1rem;
     justify-content: center;
 }
 
 .val_container > a{
     text-decoration: none;
-    background: var(--hue4);
+    background: var(--hue8);
     padding: 1.5rem;
     border-radius: 0.4rem;
     text-align: center;
@@ -135,20 +118,16 @@
     font-size: 2.5rem;
 }
 
+.info_foot{
+    padding: 1rem;   
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
 
-
-
-
-
-.info_foot{   
-    padding: 1rem;
-    display: grid
 }
 
 .pmkflogo-foot{
     width: 36%;
-    
-    
 }
 
 .info_foot > a{
