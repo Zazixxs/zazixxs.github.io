@@ -23,7 +23,7 @@
     color: black;
     text-decoration: none;
     text-align: center;
-    background-color: var(--hue8);
+    background-color: var(--hue9);
     font-size: 1.5rem;
 }
 
@@ -49,7 +49,7 @@
 } 
 
 .grid-container > p{
-    background-color: var(--hue6);
+    background-color: var(--hue5);
     text-align: center;
     padding: 1.5rem;
     font-size: 1.5rem;
@@ -110,7 +110,7 @@
 
 .val_container > a{
     text-decoration: none;
-    background: var(--hue8);
+    background: var(--hue5);
     padding: 1.5rem;
     border-radius: 0.4rem;
     text-align: center;
