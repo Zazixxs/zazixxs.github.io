@@ -1,0 +1,146 @@
+
+*{
+    box-sizing: border-box;
+    font-size:  10px;
+    margin: 0;
+}
+
+
+
+
+.pmkflogo-head{
+    width: 100%;
+    padding: 1rem;
+}
+
+.list-container{
+    padding: 1rem;
+}
+
+.list-container > a{
+    padding: .25rem;
+    border-radius: .2rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--hue9);
+    font-size: 1.5rem;
+}
+
+.titel{
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+title > p{
+    grid-column: 1/2;
+}
+
+.titel > h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: normal;
+    display: block;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+
+
+.grid-container{
+    padding: 1rem;
+} 
+
+.grid-container > p{
+    background-color: var(--hue5);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 4rem;
+}
+
+
+.people_block{
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    background-color: rgba(255,255,255, .9)
+}
+
+.people_img{
+    width: 100%;
+}
+
+/* licensing link */
+.people_block > a{
+    display: flex;
+    font-size: .5rem;
+    justify-content: end;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.experince{
+    display: grid;
+    justify-content: center; 
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    
+}
+
+.experince > p{
+    padding-bottom: 2rem;
+    border-radius: 0 0 1rem 1rem;
+    display: grid;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(255,255,255, .9);
+}
+
+
+.bg{
+    background-image: url("../img/1910.i039.014_wealth\ management\ isometric.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.val_container{
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.container > a{
+    text-decoration: none;
+    background: var(--hue5);
+    padding: 1.5rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.info_foot{
+    padding: 1rem;   
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: left;
+
+}
+
+.pmkflogo-foot{
+    width: 5%;
+}
+
+.info_foot > a{
+    text-decoration: none;
+    padding: .5rem 0 .5rem 0;
+    color: black;
+}
